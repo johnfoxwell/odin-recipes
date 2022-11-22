@@ -1,0 +1,27 @@
+/////----- Notes -----\\\\\
+
+- Main goal of Project 
+  >Home page with 3 recipe pages
+  >Navbar
+  >Include image, description, ingredients and cooking methods
+    .Unordered list for Ingredients
+    .Ordered list for Steps
+
+- Additional goals (not part of Odin requirements)
+  >Add small amount of styling to page using css
+	.Inline navbar with some padding
+	.Edit title style on home page
+ 
+ 
+> Challenge
+Problem -> I used a linear-gradient(180deg) to style the page so it was not just a white page. The gradient styling on the Home page and Tushonka page was not working properly.
+
+	Note -> I believe this had something to do with the fact that there was only a small amount of content on each of those pages, making the gradient style “reset” half-way down the page
+
+SOLUTION: Gave the body element for the Home page and Tushonka page an id=”container” so I could change the view height to 100. Gradient does not “reset” half-way down the page anymore.
+
+
+    #container {
+        height: 100vh;
+    }
+

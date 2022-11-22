@@ -1,0 +1,20 @@
+/* Element Selectors */
+body {
+    background: linear-gradient(180deg, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+/* ID Selectors */
+#container {
+    height: 100vh;
+} 
+
+#title {
+    font-size: 48px;
+    text-align: center;
+}
+
+/* Class Selectors */
+.navBar li {
+    display: inline;
+    padding: 10px;
+}
